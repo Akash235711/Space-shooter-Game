@@ -2,16 +2,12 @@
 
 A simple 2D arcade space shooter built with **libGDX**. Control the player ship, shoot enemies, and chase the high score. The game includes a start screen, restart flow, and a high-score popup.
 
-**Play / Demo:** https://space-shooter-game-pink-delta.vercel.app
 
 ## How to Play
 
 - **Goal:** Survive as long as you can and score points by destroying enemy ships.
 - Avoid collisions and keep firing to clear waves of enemies.
 
-## Screenshots
-
-> ![Gameplay screenshot](assets/screenshot.png)
 
 ## Features
 
