@@ -50,6 +50,10 @@ dependencies {
 
 def os = System.properties['os.name'].toLowerCase(Locale.ROOT)
 
+tasks.named('processResources') {
+  duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 run {
   workingDir = rootProject.file('assets').path
 // You can uncomment the next line if your IDE claims a build failure even when the app closed properly.

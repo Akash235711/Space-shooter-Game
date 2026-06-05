@@ -106,9 +106,10 @@ public class GameManager {
 
             for (int j = i + 1; j < objects.size(); j++) {
                 GameObject b = objects.get(j);
-                if (a.isDestroyed || b.isDestroyed){
+                if (a.isDestroyed || b.isDestroyed) {
                     continue;
                 }
+
                 if ((a instanceof Bullet && b instanceof Enemy) ||
                     (a instanceof Enemy && b instanceof Bullet)) {
 

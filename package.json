@@ -1,0 +1,7 @@
+{
+  "name": "space-shooter-game",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"const fs=require('fs'); const path=require('path'); const src='lwjgl3/build/libs/java gamedevelopment-1.0.0.jar'; const dest='public/downloads/java gamedevelopment-1.0.0.jar'; fs.mkdirSync(path.dirname(dest), {recursive:true}); fs.copyFileSync(src, dest); console.log('Copied jar to public/downloads');\""
+  }
+}
