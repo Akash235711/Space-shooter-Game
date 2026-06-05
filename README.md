@@ -1,6 +1,21 @@
 # Space Shooter Game
 
-A simple 2D space shooter built with libGDX. Control the player ship, shoot enemies, and chase the high score. The game includes a start screen, restart flow, and a high-score popup.
+A simple 2D arcade space shooter built with **libGDX**. Control the player ship, shoot enemies, and chase the high score. The game includes a start screen, restart flow, and a high-score popup.
+
+**Play / Demo:** https://space-shooter-game-pink-delta.vercel.app
+
+## How to Play
+
+- **Goal:** Survive as long as you can and score points by destroying enemy ships.
+- Avoid collisions and keep firing to clear waves of enemies.
+
+## Screenshots
+
+> Add a screenshot or GIF to make the repo more appealing.
+>
+> Example:
+> 
+> ![Gameplay screenshot](assets/screenshot.png)
 
 ## Features
 
@@ -14,6 +29,8 @@ A simple 2D space shooter built with libGDX. Control the player ship, shoot enem
 - Move: Arrow keys
 - Shoot: Space
 - Start/Restart: Enter (or Space)
+
+> Note: If you use **Space** to start from the start screen, the same key is also used to shoot during gameplay.
 
 ## Requirements
 
@@ -40,6 +57,16 @@ macOS/Linux:
 ```
 
 The jar will be in `lwjgl3/build/libs`.
+
+## Troubleshooting
+
+- macOS/Linux: if you get `permission denied` running `./gradlew`, run:
+
+  ```
+  chmod +x gradlew
+  ```
+
+- Ensure `JAVA_HOME` points to a JDK (not a JRE).
 
 ## Project Structure
 
