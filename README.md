@@ -11,10 +11,6 @@ A simple 2D arcade space shooter built with **libGDX**. Control the player ship,
 
 ## Screenshots
 
-> Add a screenshot or GIF to make the repo more appealing.
->
-> Example:
-> 
 > ![Gameplay screenshot](assets/screenshot.png)
 
 ## Features
